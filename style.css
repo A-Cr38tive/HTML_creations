@@ -1,0 +1,56 @@
+
+@font-face {
+	font-family: 'GothamRounded-Bold';
+	src: url('fonts/GothamRounded-Bold.otf');
+	src: local('GothamRounded-Bold'),
+}
+
+.header {
+	position: absolute;
+}
+
+#image-header {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#logo {
+	max-width: 50%;
+    height: auto;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222);
+}
+
+.title {
+	font-family: 'GothamRounded-Bold';
+	font-size: 72px;
+    color: white;
+    position: absolute;
+	top: 200px;
+	left: 85px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222);
+    text-decoration: underline;
+}
+
+#nav {
+	font-family: 'GothamRounded-Bold';
+	font-size: 18px;
+    color: white;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222);
+ 	position: fixed;
+  	top: 80px;left: 800px;
+ 	width: 100%;
+
+}
+
+li {
+ 	display: inline-block;
+  	margin-left: 5%;
+}
+
